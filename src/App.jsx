@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import "./App.css";
 
 export default function App() {
-  const [dark, setDark] = useState(false); // start in light mode
+  const [dark, setDark] = useState(false); 
   const [value, setValue] = useState("ALL");
   const [array, setArray] = useState([]);
   const [filteredArray, setFilteredArray] = useState([]);
